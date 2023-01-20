@@ -32,3 +32,14 @@ input.valid {
 input.invalid {
     border-color: orange;
 }
+
+input + p {
+    font-family: Arial;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orange;
+    opacity: 0;
+    height: 0;
+}
